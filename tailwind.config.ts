@@ -14,7 +14,7 @@ const config: Config = {
   			sans: ["var(--font-geist-sans)"],
   			mono: ["var(--font-geist-mono)"],
   			merienda: ["var(--font-merienda)"],
-  			barlow: ["var(--font-barlow)"]
+  			redHat: ["var(--font-red-hat-display)"]
   		},
   		colors: {
   			background: 'hsl(var(--background))',
@@ -65,7 +65,8 @@ const config: Config = {
   		},
   		animation: {
   			shine: 'shine var(--duration) infinite linear',
-  			'shiny-text': 'shiny-text 8s infinite'
+  			'shiny-text': 'shiny-text 8s infinite',
+  			gradient: 'gradient 8s linear infinite'
   		},
   		keyframes: {
   			shine: {
@@ -85,6 +86,11 @@ const config: Config = {
   				},
   				'30%, 60%': {
   					'background-position': 'calc(100% + var(--shiny-width)) 0'
+  				}
+  			},
+  			gradient: {
+  				to: {
+  					backgroundPosition: 'var(--bg-size) 0'
   				}
   			}
   		}

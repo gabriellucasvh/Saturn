@@ -5,7 +5,7 @@ import React from "react";
 
 const Desenvolvimento = () => {
   return (
-    <div className="px-4 sm:px-6 lg:px-8">
+    <div >
       <h3 className="text-xl sm:text-2xl pb-2 bg-gradient-to-r from-pink-500 via-blue-500 to-blue-100 bg-clip-text text-transparent inline-block">
         <AnimatedShinyText>Desenvolvimento</AnimatedShinyText>
       </h3>

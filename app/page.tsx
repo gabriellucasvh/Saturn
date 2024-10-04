@@ -9,7 +9,7 @@ export default function Home() {
       
       <Navbar />
       <Sidebar />
-      <div className="p-2 sm:p-10 lg:p-20">
+      <div className="px-8 sm:px-10 lg:px-20">
       <Inicio />
       <Desenvolvimento />
       </div>
